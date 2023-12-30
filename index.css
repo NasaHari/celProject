@@ -1,0 +1,219 @@
+/* Reset and basic styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Container styles */
+  .container {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.705);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    align-items: center;
+        width: 100%;
+
+  }
+  
+  nav img {
+    margin-right: 10px;
+  }
+  
+  .menu {
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  div {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #000000; /* Change color on hover */
+  }
+  
+  /* Button styles */
+  .button {
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #ebc632;
+    color: black; /* Darker yellow on hover */
+  }
+  
+  /* Section styles */
+  .section {
+    padding: 20px;
+    margin: 20px 0,0,1;
+  }
+  
+  /* Home section specific styles */
+  #home {
+    background-color: #6f8000; /* Dark blue */
+    color: white;
+  }
+  
+  /* Image carousel styles */
+  .image-carousel {
+    margin-top: 20px;
+  }
+  
+  /* Testimonial styles */
+  .testimonials {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .testimonial {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 0 0 45%;
+  }
+  
+  .author {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+  }
+  
+  /* Team members styles */
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  /* Blog section specific styles */
+  #blog {
+    background-color: #800040; /* Dark magenta */
+    color: rgb(0, 0, 0);
+  }
+  
+  .blog-posts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .blog-post {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Campus Life section specific styles */
+  #campus-life {
+    background-color: #804000; /* Rust */
+    color: white;
+  }
+  
+  .campus-events {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .event {
+    text-align: center;
+  }
+  
+  /* Contact Us section specific styles */
+  #contact {
+    background-color: #808080; /* Gray */
+    color: white;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .achievement{
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-post{
+    display: flex;
+    flex-direction: column;
+  }
+  .event{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #home {
+    background-color: #ffe553; 
+    color: #000000;/* Gold */
+  }
+  #about {
+    background-color: #121002; 
+    color: white;/* Gold */
+  }
+  #blog {
+    background-color: #ffff00; /* Yellow */
+  }
+  
+  #campus-life {
+    background-color: #ffd700; /* Gold */
+    color: black;
+  }
+  
+  #contact {
+    background-color: #222; /* Black */
+    color: #ffd700; /* Gold text */
+  }
